@@ -8,11 +8,11 @@ To run locally run `yarn` then `yarn dev`, alternatively `npm i` and `npm run de
 
 ## TODO
 
-[ ] Work on a custom icon for manifest
-[ ] Create custom favicon
-[ ] Deal with custom font being replaced by tailwind
-[ ] Port to TypeScript
-[ ] Add featured images
-[ ] Add categories
-[ ] Add pagination
-[ ] Add hosted comments (?optional)
+- [ ] Work on a custom icon for manifest
+- [ ] Create custom favicon
+- [ ] Deal with custom font being replaced by tailwind
+- [ ] Port to TypeScript
+- [ ] Add featured images
+- [ ] Add categories
+- [ ] Add pagination
+- [ ] Add hosted comments (?optional)
