@@ -3,15 +3,6 @@ label: Blog post
 hide_body: false
 display_field: title
 fields:
-- name: date
-  type: datetime
-  label: Date
-  description: Publication date
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 - name: title
   type: text
   config:
@@ -27,5 +18,14 @@ fields:
       format: markdown
   label: Description
   description: A short snapshot of the post
+- name: date
+  type: datetime
+  label: Date
+  description: Publication date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/blog/hello-world/hello-world.md
