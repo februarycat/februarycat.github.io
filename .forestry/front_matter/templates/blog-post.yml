@@ -1,0 +1,32 @@
+---
+label: Blog post
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Post title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: A short snapshot of the post
+- name: date
+  type: datetime
+  label: Date
+  description: Publication date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+pages:
+- content/blog/hello-world/hello-world.md
